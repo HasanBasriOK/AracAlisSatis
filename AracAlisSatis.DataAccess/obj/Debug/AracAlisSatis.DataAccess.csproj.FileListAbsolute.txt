@@ -1,0 +1,10 @@
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\obj\Debug\AracAlisSatis.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\AracAlisSatis.DataAccess.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\AracAlisSatis.DataAccess.pdb
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\AracAlisSatis.Entity.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\MySql.Data.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\Google.Protobuf.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\AracAlisSatis.Entity.pdb
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\bin\Debug\MySql.Data.xml
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\obj\Debug\AracAlisSatis.DataAccess.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.DataAccess\obj\Debug\AracAlisSatis.DataAccess.pdb

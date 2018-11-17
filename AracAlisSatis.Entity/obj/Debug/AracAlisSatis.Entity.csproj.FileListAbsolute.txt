@@ -1,0 +1,5 @@
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.Entity\bin\Debug\AracAlisSatis.Entity.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.Entity\bin\Debug\AracAlisSatis.Entity.pdb
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.Entity\obj\Debug\AracAlisSatis.Entity.dll
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.Entity\obj\Debug\AracAlisSatis.Entity.pdb
+C:\Users\busranur\Desktop\Eğitimler\Projelerim\projeler\AracAlisSatis\AracAlisSatis.Entity\obj\Debug\AracAlisSatis.Entity.csprojResolveAssemblyReference.cache

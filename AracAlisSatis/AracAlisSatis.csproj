@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DC39B5E-3A9B-4C8C-9CC4-38FE7BCAA94C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AracAlisSatis</RootNamespace>
+    <AssemblyName>AracAlisSatis</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmYakitTuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYakitTuru.Designer.cs">
+      <DependentUpon>frmYakitTuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVitesTuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVitesTuru.Designer.cs">
+      <DependentUpon>frmVitesTuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRenk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRenk.Designer.cs">
+      <DependentUpon>frmRenk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIlan.Designer.cs">
+      <DependentUpon>frmIlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSehir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSehir.Designer.cs">
+      <DependentUpon>frmSehir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAraba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAraba.Designer.cs">
+      <DependentUpon>frmAraba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmArabaDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArabaDetay.Designer.cs">
+      <DependentUpon>frmArabaDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIlanDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIlanDetay.Designer.cs">
+      <DependentUpon>frmIlanDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRenkDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRenkDetay.Designer.cs">
+      <DependentUpon>frmRenkDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSehirDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSehirDetay.Designer.cs">
+      <DependentUpon>frmSehirDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVitesTuruDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVitesTuruDetay.Designer.cs">
+      <DependentUpon>frmVitesTuruDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYakitTuruDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYakitTuruDetay.Designer.cs">
+      <DependentUpon>frmYakitTuruDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmYakitTuru.resx">
+      <DependentUpon>frmYakitTuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVitesTuru.resx">
+      <DependentUpon>frmVitesTuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenk.resx">
+      <DependentUpon>frmRenk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIlan.resx">
+      <DependentUpon>frmIlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSehir.resx">
+      <DependentUpon>frmSehir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAraba.resx">
+      <DependentUpon>frmAraba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArabaDetay.resx">
+      <DependentUpon>frmArabaDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIlanDetay.resx">
+      <DependentUpon>frmIlanDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenkDetay.resx">
+      <DependentUpon>frmRenkDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSehirDetay.resx">
+      <DependentUpon>frmSehirDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVitesTuruDetay.resx">
+      <DependentUpon>frmVitesTuruDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYakitTuruDetay.resx">
+      <DependentUpon>frmYakitTuruDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AracAlisSatis.DataAccess\AracAlisSatis.DataAccess.csproj">
+      <Project>{e684feaf-276c-43dc-9d26-fc198256e2c5}</Project>
+      <Name>AracAlisSatis.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AracAlisSatis.Entity\AracAlisSatis.Entity.csproj">
+      <Project>{9f8a7a2d-558c-4d20-9ec7-13043d5b5609}</Project>
+      <Name>AracAlisSatis.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
